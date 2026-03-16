@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@theme{
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --color-blue-600: #666CA3;
+  --color-blue-900: #13183F;
+  --color-pink-300: #FFA7C3;
+  --color-pink-600: #F74780;
+  --color-grey: #83869A;
+
+  --gradient-pink: linear-gradient(180deg, rgb(240, 42, 166), rgb(255, 111, 72));
+  --gradient-purple: linear-gradient(180deg, rgb(72, 81, 255), rgb(240, 42, 166));
+  
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
