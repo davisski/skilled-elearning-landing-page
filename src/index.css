@@ -9,12 +9,12 @@
   --color-pink-600: #F74780;
   --color-grey: #83869A;
 
-  --gradient-pink: linear-gradient(180deg, rgb(240, 42, 166), rgb(255, 111, 72));
-  --gradient-purple: linear-gradient(180deg, rgb(72, 81, 255), rgb(240, 42, 166));
-  
 }
 
 :root {
+  --gradient-orange: linear-gradient(180deg, #FF6F48, #F02AA6);
+  --gradient-purple: linear-gradient(180deg, #4851FF, #F02AA6);
+
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -50,7 +50,7 @@
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: #16171d;
+    /* --bg: #16171d; */
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
